@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin:0;
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white
+}
+
+.container-fluid{  
+    height: auto;   
+    color:white;
+}
+
+.container-fluid button{
+    border:solid 1px white;
+}
+
+#manual, #manual1{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#manual h2, #manual1 h2{
+    margin: 0; 
+}
+
+#manual p, #manual1 p{
+    font-size: 15px;
+    margin: 0;
+}
